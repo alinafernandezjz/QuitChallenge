@@ -7,15 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C802E6872094EDEF002F7394 /* InitialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C802E6862094EDEF002F7394 /* InitialScreenViewController.swift */; };
+		C802E689209505D1002F7394 /* ConfigurationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C802E688209505D1002F7394 /* ConfigurationViewController.swift */; };
+		C80E3EE420602030002CE507 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E3EE320602030002CE507 /* LoginViewController.swift */; };
+		C80E3EE620602132002CE507 /* AhorrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E3EE520602132002CE507 /* AhorrosViewController.swift */; };
+		C80E3EE8206021A3002CE507 /* LogrosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E3EE7206021A3002CE507 /* LogrosViewController.swift */; };
+		C80E3EEA206021BF002CE507 /* SaludViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E3EE9206021BF002CE507 /* SaludViewController.swift */; };
+		C80E3EEC206021CA002CE507 /* ComunidadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C80E3EEB206021CA002CE507 /* ComunidadViewController.swift */; };
+		C811AFD520A402FA00F0A5E0 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = C811AFD420A402FA00F0A5E0 /* settings.png */; };
+		C812E2D5208A688D0007E176 /* DatosPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C812E2D4208A688C0007E176 /* DatosPerfilViewController.swift */; };
+		C81717B91FCA0235002E26BF /* locked.png in Resources */ = {isa = PBXBuildFile; fileRef = C81717B81FCA0235002E26BF /* locked.png */; };
+		C81717BB1FCA0295002E26BF /* medalla.png in Resources */ = {isa = PBXBuildFile; fileRef = C81717BA1FCA0295002E26BF /* medalla.png */; };
+		C81717BD1FCA044E002E26BF /* cigarrosalud.png in Resources */ = {isa = PBXBuildFile; fileRef = C81717BC1FCA044E002E26BF /* cigarrosalud.png */; };
+		C81717BF1FCA046B002E26BF /* corazon.png in Resources */ = {isa = PBXBuildFile; fileRef = C81717BE1FCA046B002E26BF /* corazon.png */; };
+		C81717C11FCA0487002E26BF /* reloj.png in Resources */ = {isa = PBXBuildFile; fileRef = C81717C01FCA0487002E26BF /* reloj.png */; };
+		C81717C31FCA04A2002E26BF /* saludseccion.png in Resources */ = {isa = PBXBuildFile; fileRef = C81717C21FCA04A2002E26BF /* saludseccion.png */; };
+		C81717C51FCA129A002E26BF /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = C81717C41FCA129A002E26BF /* checkmark.png */; };
+		C8183937205F2E92004ADBEC /* SelectMotivationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8183936205F2E92004ADBEC /* SelectMotivationViewController.swift */; };
+		C821D7DC208905FE00B24759 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = C821D7DB208905FE00B24759 /* Model.swift */; };
+		C822FECE209770A4003CC32F /* ComunidadTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822FECD209770A4003CC32F /* ComunidadTableViewCell.swift */; };
+		C822FED02097B95D003CC32F /* DetallesSaludViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C822FECF2097B95D003CC32F /* DetallesSaludViewController.swift */; };
 		C8233BDB1F8198CD006162D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8233BDA1F8198CD006162D6 /* AppDelegate.swift */; };
 		C8233BDD1F8198CD006162D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8233BDC1F8198CD006162D6 /* ViewController.swift */; };
 		C8233BE01F8198CD006162D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8233BDE1F8198CD006162D6 /* Main.storyboard */; };
 		C8233BE31F8198CD006162D6 /* QuitChallengeNuevo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C8233BE11F8198CD006162D6 /* QuitChallengeNuevo.xcdatamodeld */; };
 		C8233BE51F8198CD006162D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8233BE41F8198CD006162D6 /* Assets.xcassets */; };
 		C8233BE81F8198CD006162D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8233BE61F8198CD006162D6 /* LaunchScreen.storyboard */; };
+		C8233BF51F81996E006162D6 /* ahorros.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233BF21F81996E006162D6 /* ahorros.png */; };
+		C8233BF91F81997E006162D6 /* cigarro.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233BF61F81997E006162D6 /* cigarro.png */; };
+		C8233BFA1F81997E006162D6 /* comunidad.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233BF71F81997E006162D6 /* comunidad.png */; };
+		C8233C001F81998D006162D6 /* insignias.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233BFC1F81998D006162D6 /* insignias.png */; };
+		C8233C021F81998D006162D6 /* salud.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233BFE1F81998D006162D6 /* salud.png */; };
+		C8233C031F81998D006162D6 /* saludsigno.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233BFF1F81998D006162D6 /* saludsigno.png */; };
+		C8233C051F8199D8006162D6 /* piramide.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233C041F8199D8006162D6 /* piramide.png */; };
+		C8233C0B1F81E43C006162D6 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233C0A1F81E43C006162D6 /* settings.png */; };
+		C8233C0D1F81E4D8006162D6 /* idea-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233C0C1F81E4D8006162D6 /* idea-icon.png */; };
+		C8233C101F81E7F8006162D6 /* darkercircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233C0E1F81E7F8006162D6 /* darkercircle.png */; };
+		C8233C111F81E7F8006162D6 /* graycircle.png in Resources */ = {isa = PBXBuildFile; fileRef = C8233C0F1F81E7F8006162D6 /* graycircle.png */; };
+		C8CCAE7F208A65B500DBF4A7 /* PickerViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CCAE7E208A65B500DBF4A7 /* PickerViewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C802E6862094EDEF002F7394 /* InitialScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenViewController.swift; sourceTree = "<group>"; };
+		C802E688209505D1002F7394 /* ConfigurationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationViewController.swift; sourceTree = "<group>"; };
+		C80E3EE320602030002CE507 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C80E3EE520602132002CE507 /* AhorrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AhorrosViewController.swift; sourceTree = "<group>"; };
+		C80E3EE7206021A3002CE507 /* LogrosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogrosViewController.swift; sourceTree = "<group>"; };
+		C80E3EE9206021BF002CE507 /* SaludViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaludViewController.swift; sourceTree = "<group>"; };
+		C80E3EEB206021CA002CE507 /* ComunidadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunidadViewController.swift; sourceTree = "<group>"; };
+		C811AFD420A402FA00F0A5E0 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		C812E2D4208A688C0007E176 /* DatosPerfilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatosPerfilViewController.swift; sourceTree = "<group>"; };
+		C81717B81FCA0235002E26BF /* locked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locked.png; sourceTree = "<group>"; };
+		C81717BA1FCA0295002E26BF /* medalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = medalla.png; sourceTree = "<group>"; };
+		C81717BC1FCA044E002E26BF /* cigarrosalud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cigarrosalud.png; sourceTree = "<group>"; };
+		C81717BE1FCA046B002E26BF /* corazon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corazon.png; sourceTree = "<group>"; };
+		C81717C01FCA0487002E26BF /* reloj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reloj.png; sourceTree = "<group>"; };
+		C81717C21FCA04A2002E26BF /* saludseccion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saludseccion.png; sourceTree = "<group>"; };
+		C81717C41FCA129A002E26BF /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		C8183936205F2E92004ADBEC /* SelectMotivationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectMotivationViewController.swift; sourceTree = "<group>"; };
+		C821D7DB208905FE00B24759 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		C822FECD209770A4003CC32F /* ComunidadTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunidadTableViewCell.swift; sourceTree = "<group>"; };
+		C822FECF2097B95D003CC32F /* DetallesSaludViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetallesSaludViewController.swift; sourceTree = "<group>"; };
 		C8233BD71F8198CD006162D6 /* QuitChallengeNuevo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuitChallengeNuevo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8233BDA1F8198CD006162D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8233BDC1F8198CD006162D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +76,18 @@
 		C8233BE41F8198CD006162D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8233BE71F8198CD006162D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8233BE91F8198CD006162D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8233BF21F81996E006162D6 /* ahorros.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ahorros.png; sourceTree = "<group>"; };
+		C8233BF61F81997E006162D6 /* cigarro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cigarro.png; sourceTree = "<group>"; };
+		C8233BF71F81997E006162D6 /* comunidad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = comunidad.png; sourceTree = "<group>"; };
+		C8233BFC1F81998D006162D6 /* insignias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = insignias.png; sourceTree = "<group>"; };
+		C8233BFE1F81998D006162D6 /* salud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = salud.png; sourceTree = "<group>"; };
+		C8233BFF1F81998D006162D6 /* saludsigno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saludsigno.png; sourceTree = "<group>"; };
+		C8233C041F8199D8006162D6 /* piramide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piramide.png; sourceTree = "<group>"; };
+		C8233C0A1F81E43C006162D6 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		C8233C0C1F81E4D8006162D6 /* idea-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "idea-icon.png"; sourceTree = "<group>"; };
+		C8233C0E1F81E7F8006162D6 /* darkercircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkercircle.png; sourceTree = "<group>"; };
+		C8233C0F1F81E7F8006162D6 /* graycircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graycircle.png; sourceTree = "<group>"; };
+		C8CCAE7E208A65B500DBF4A7 /* PickerViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,14 +121,54 @@
 			isa = PBXGroup;
 			children = (
 				C8233BDA1F8198CD006162D6 /* AppDelegate.swift */,
-				C8233BDC1F8198CD006162D6 /* ViewController.swift */,
 				C8233BDE1F8198CD006162D6 /* Main.storyboard */,
+				C822FECF2097B95D003CC32F /* DetallesSaludViewController.swift */,
+				C802E688209505D1002F7394 /* ConfigurationViewController.swift */,
+				C802E6862094EDEF002F7394 /* InitialScreenViewController.swift */,
+				C8CCAE7E208A65B500DBF4A7 /* PickerViewViewController.swift */,
+				C8183936205F2E92004ADBEC /* SelectMotivationViewController.swift */,
+				C812E2D4208A688C0007E176 /* DatosPerfilViewController.swift */,
+				C80E3EE320602030002CE507 /* LoginViewController.swift */,
+				C821D7DB208905FE00B24759 /* Model.swift */,
+				C8233BDC1F8198CD006162D6 /* ViewController.swift */,
+				C80E3EE520602132002CE507 /* AhorrosViewController.swift */,
+				C80E3EE7206021A3002CE507 /* LogrosViewController.swift */,
+				C80E3EE9206021BF002CE507 /* SaludViewController.swift */,
+				C822FECD209770A4003CC32F /* ComunidadTableViewCell.swift */,
+				C80E3EEB206021CA002CE507 /* ComunidadViewController.swift */,
 				C8233BE41F8198CD006162D6 /* Assets.xcassets */,
+				C8233BEF1F819903006162D6 /* img */,
 				C8233BE61F8198CD006162D6 /* LaunchScreen.storyboard */,
 				C8233BE91F8198CD006162D6 /* Info.plist */,
 				C8233BE11F8198CD006162D6 /* QuitChallengeNuevo.xcdatamodeld */,
 			);
 			path = QuitChallengeNuevo;
+			sourceTree = "<group>";
+		};
+		C8233BEF1F819903006162D6 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				C8233C0E1F81E7F8006162D6 /* darkercircle.png */,
+				C8233C0F1F81E7F8006162D6 /* graycircle.png */,
+				C8233C0C1F81E4D8006162D6 /* idea-icon.png */,
+				C8233C0A1F81E43C006162D6 /* settings.png */,
+				C811AFD420A402FA00F0A5E0 /* settings.png */,
+				C8233C041F8199D8006162D6 /* piramide.png */,
+				C8233BF61F81997E006162D6 /* cigarro.png */,
+				C8233BFC1F81998D006162D6 /* insignias.png */,
+				C8233BFE1F81998D006162D6 /* salud.png */,
+				C8233BFF1F81998D006162D6 /* saludsigno.png */,
+				C8233BF71F81997E006162D6 /* comunidad.png */,
+				C8233BF21F81996E006162D6 /* ahorros.png */,
+				C81717B81FCA0235002E26BF /* locked.png */,
+				C81717BA1FCA0295002E26BF /* medalla.png */,
+				C81717BC1FCA044E002E26BF /* cigarrosalud.png */,
+				C81717BE1FCA046B002E26BF /* corazon.png */,
+				C81717C21FCA04A2002E26BF /* saludseccion.png */,
+				C81717C01FCA0487002E26BF /* reloj.png */,
+				C81717C41FCA129A002E26BF /* checkmark.png */,
+			);
+			name = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,8 +232,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8233BE81F8198CD006162D6 /* LaunchScreen.storyboard in Resources */,
+				C81717BB1FCA0295002E26BF /* medalla.png in Resources */,
+				C81717B91FCA0235002E26BF /* locked.png in Resources */,
+				C81717BF1FCA046B002E26BF /* corazon.png in Resources */,
+				C8233C031F81998D006162D6 /* saludsigno.png in Resources */,
+				C8233C051F8199D8006162D6 /* piramide.png in Resources */,
+				C8233BF51F81996E006162D6 /* ahorros.png in Resources */,
+				C8233C0B1F81E43C006162D6 /* settings.png in Resources */,
+				C81717C31FCA04A2002E26BF /* saludseccion.png in Resources */,
+				C8233C021F81998D006162D6 /* salud.png in Resources */,
+				C81717BD1FCA044E002E26BF /* cigarrosalud.png in Resources */,
+				C81717C51FCA129A002E26BF /* checkmark.png in Resources */,
+				C8233C0D1F81E4D8006162D6 /* idea-icon.png in Resources */,
+				C8233BFA1F81997E006162D6 /* comunidad.png in Resources */,
+				C811AFD520A402FA00F0A5E0 /* settings.png in Resources */,
+				C8233C101F81E7F8006162D6 /* darkercircle.png in Resources */,
 				C8233BE51F8198CD006162D6 /* Assets.xcassets in Resources */,
+				C8233BF91F81997E006162D6 /* cigarro.png in Resources */,
+				C8233C111F81E7F8006162D6 /* graycircle.png in Resources */,
 				C8233BE01F8198CD006162D6 /* Main.storyboard in Resources */,
+				C81717C11FCA0487002E26BF /* reloj.png in Resources */,
+				C8233C001F81998D006162D6 /* insignias.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,8 +263,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C80E3EE8206021A3002CE507 /* LogrosViewController.swift in Sources */,
+				C80E3EE420602030002CE507 /* LoginViewController.swift in Sources */,
 				C8233BDD1F8198CD006162D6 /* ViewController.swift in Sources */,
 				C8233BE31F8198CD006162D6 /* QuitChallengeNuevo.xcdatamodeld in Sources */,
+				C80E3EEC206021CA002CE507 /* ComunidadViewController.swift in Sources */,
+				C812E2D5208A688D0007E176 /* DatosPerfilViewController.swift in Sources */,
+				C822FED02097B95D003CC32F /* DetallesSaludViewController.swift in Sources */,
+				C80E3EE620602132002CE507 /* AhorrosViewController.swift in Sources */,
+				C802E6872094EDEF002F7394 /* InitialScreenViewController.swift in Sources */,
+				C80E3EEA206021BF002CE507 /* SaludViewController.swift in Sources */,
+				C8183937205F2E92004ADBEC /* SelectMotivationViewController.swift in Sources */,
+				C8CCAE7F208A65B500DBF4A7 /* PickerViewViewController.swift in Sources */,
+				C802E689209505D1002F7394 /* ConfigurationViewController.swift in Sources */,
+				C822FECE209770A4003CC32F /* ComunidadTableViewCell.swift in Sources */,
+				C821D7DC208905FE00B24759 /* Model.swift in Sources */,
 				C8233BDB1F8198CD006162D6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,6 +442,7 @@
 				C8233BEE1F8198CD006162D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

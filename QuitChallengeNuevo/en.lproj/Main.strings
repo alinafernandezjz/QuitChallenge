@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "Contraseña:"; ObjectID = "093-Gg-xB9"; */
+"093-Gg-xB9.text" = "Contraseña:";
+
+/* Class = "UILabel"; text = "Costo por cigarro (individual):"; ObjectID = "1tB-Cb-Vo6"; */
+"1tB-Cb-Vo6.text" = "Costo por cigarro (individual):";
+
+/* Class = "UILabel"; text = "Nombre de usuario:"; ObjectID = "3PK-Td-7pN"; */
+"3PK-Td-7pN.text" = "Nombre de usuario:";
+
+/* Class = "UILabel"; text = "Cantidad de cigarros al día:"; ObjectID = "9LC-OK-anC"; */
+"9LC-OK-anC.text" = "Cantidad de cigarros al día:";
+
+/* Class = "UILabel"; text = "Completa tu perfil"; ObjectID = "Ee2-ur-MKK"; */
+"Ee2-ur-MKK.text" = "Completa tu perfil";
+
+/* Class = "UILabel"; text = "Q"; ObjectID = "I4x-oY-6tO"; */
+"I4x-oY-6tO.text" = "Q";
+
+/* Class = "UIButton"; normalTitle = "¡Comienza!"; ObjectID = "Mbi-uy-6Qk"; */
+"Mbi-uy-6Qk.normalTitle" = "¡Comienza!";
+
+/* Class = "UILabel"; text = "HALLENGE"; ObjectID = "PEw-6j-ZhB"; */
+"PEw-6j-ZhB.text" = "HALLENGE";
+
+/* Class = "UIButton"; normalTitle = "Completa tu perfil"; ObjectID = "TFL-d1-ro4"; */
+"TFL-d1-ro4.normalTitle" = "Completa tu perfil";
+
+/* Class = "UILabel"; text = "Fija una fecha para dejar de fumar completamente:"; ObjectID = "WQq-Ox-4xB"; */
+"WQq-Ox-4xB.text" = "Fija una fecha para dejar de fumar completamente:";
+
+/* Class = "UIButton"; normalTitle = "Continuar"; ObjectID = "Y3r-oR-c8s"; */
+"Y3r-oR-c8s.normalTitle" = "Continuar";
+
+/* Class = "UILabel"; text = "¡Ya has dado el siguiente paso para una vida mejor!"; ObjectID = "cTr-N3-RKP"; */
+"cTr-N3-RKP.text" = "¡Ya has dado el siguiente paso para una vida mejor!";
+
+/* Class = "UILabel"; text = "C"; ObjectID = "hf8-ff-00J"; */
+"hf8-ff-00J.text" = "C";
+
+/* Class = "UILabel"; text = "Correo electrónico:"; ObjectID = "nUb-bK-wMW"; */
+"nUb-bK-wMW.text" = "Correo electrónico:";
+
+/* Class = "UILabel"; text = "UIT"; ObjectID = "nqm-j6-G2l"; */
+"nqm-j6-G2l.text" = "UIT";
+
+/* Class = "UILabel"; text = "¿Aceptas el reto?"; ObjectID = "pOs-Dm-RwK"; */
+"pOs-Dm-RwK.text" = "¿Aceptas el reto?";
